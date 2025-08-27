@@ -1,0 +1,41 @@
+
+/* ------------------------------ *\
+            NAV
+\* ------------------------------ */
+
+.menu1:hover{
+    border-top: 5px solid #4C8;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+
+
+.menu2:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu3:hover{
+    
+}
+
+.menu4:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+@media screen and (max-width:780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px; 
+    }
+    nav li:hover{
+        padding: 5px 10px 10px 10px;
+    }
+}

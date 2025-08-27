@@ -1,0 +1,10 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass ./html-css:./html-css ./js:./js"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
