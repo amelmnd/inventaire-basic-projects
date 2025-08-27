@@ -1,0 +1,63 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Corben', cursive;
+} 
+h1{ 
+    text-align: center;
+    font-size: 3.5em;
+}
+
+header { 
+    background-image: linear-gradient(to right, #B8B9B9, #E0E0E1, #FFF, #E0E0E1,#B8B9B9);
+    width: 100%; 
+    text-align: center;
+    padding: 10px;
+} 
+#img-div{
+    width: 100%;
+}
+img{
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    margin: 50px auto 0 auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+
+}
+#img-caption{
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+}
+ul{
+    width: 650px;
+    margin: 0 auto;
+}
+
+article > p
+{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+blockquote{
+    width: 650px;
+    margin: 20px auto;
+    padding: 10px;
+    font-style: oblique;
+    font-size: 14px;
+    text-align: center;
+    background-image: linear-gradient(to right, #E0E0E1, #B8B9B9);
+      -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

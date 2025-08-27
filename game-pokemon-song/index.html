@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quel Pokemon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="instruction">
+    <h1>Devineras-tu quel Pokemon fait ce bruit ?</h1>
+    <p>Appuis sur les touches de ton clavier correspondant à la case que tu veux entendre et devine quel est le pokémon qui émet ce son.
+    <br>Chaque case correspond à 1 pokémon de 1er génération.
+    <br><span class="red"> Attention si tu survole la case la response t'apparaitra !!</span> 
+    </p>
+  </div>
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/63.png" alt="abra"></span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/4.png" alt="salameche"></span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/85.png" alt="Dodrio"></span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/92.png" alt="fantominus"></span>
+    </div>
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/7.png" alt="carapuce"></span>
+    </div>
+    <div data-key="66" class="key">
+      <kbd>B</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/1.png" alt="bulbizarre"></span>
+    </div>
+    <div data-key="77" class="key">
+      <kbd>M</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/151.png" alt="mew"></span>
+    </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/143.png" alt="ronflex"></span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound"><img src="https://www.pokebip.com/pokedex/images/sugimori/130.png" alt="leviator"></span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/abra.ogg"></audio>
+  <audio data-key="83" src="sounds/salamäche.ogg"></audio>
+  <audio data-key="68" src="sounds/dodrio.ogg"></audio>
+  <audio data-key="70" src="sounds/fantominus.ogg"></audio>
+  <audio data-key="67" src="sounds/carapuce.ogg"></audio>
+  <audio data-key="66" src="sounds/bulbizarre.ogg"></audio>
+  <audio data-key="77" src="sounds/mew.ogg"></audio>
+  <audio data-key="82" src="sounds/ronflex.ogg"></audio>
+  <audio data-key="76" src="sounds/leviator.ogg"></audio>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

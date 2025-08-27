@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Créer un formulaire de sondage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="containerform">
+    <h1 id="title">Learn Code online form</h1>
+    <p id="description">This is a short form about your online code learning or your coming learning</p>
+    
+    <form method="GET" action="amel.mnd@icloud.com" id="survey-form">
+
+    <fieldset>
+            <legend>Personal information</legend>
+            
+            <label for="name" id="name-label">Name * : 
+                <input  type="text" name="name" id="name"  placeholder="Your name"required/>
+            </label>
+
+            <label for="age">Age range * : 
+            <select name="age" id="dropdown" placeholder="Default" required>
+                <option name="age" value="default" id="dropdown" > Select age range</option>                
+                <option name="age" value="less-15" id="dropdown"> Less 15 </option>
+                <option name="age" value="less-15" id="dropdown"> 15-24 </option>
+                <option name="age" value="less-15" id="dropdown"> 24-39 </option>
+                <option name="age" value="less-15" id="dropdown"> 40-59 </option>
+                <option name="age" value="less-15" id="dropdown"> More 60</option>
+            </select>
+            </label>
+            
+            <label for="email" id="email-label" > Email * :  
+                <input  type="email" placeholder="Your email" name="Email" id="email" required pattern=".+@beststartupever.com"/>   
+            </label>
+
+    </fieldset>
+    
+        <label for="statuspro" id="statuspro"> <p>Principal professional status (1 answer): </p><br>
+            <input type="radio" name="radio" value="employe" id="statuspro"/> Employe
+            <input type="radio" name="radio" value="entrepreneur" id="statuspro"/> Entrepreneur
+            <input type="radio" name="radio" value="student" id="statuspro"/> Sudent
+            <input type="radio" name="radio" value="unemployed" id="statuspro"/> Unemployed       
+        </label>
+
+        <label for="learnsite"><p>What websites use ou want use to learn code ? (multiple ansorw)</p>
+            <input type="checkbox" name="learnsite" value="Codecademy" id="learnsite"> Codecademy
+            <input type="checkbox" name="learnsite" value="FreeCodeCamp" id="learnsite"> FreeCodeCamp
+            <input type="checkbox" name="learnsite" value="Khan Academy" id="learnsite"> Khan Academy
+            <input type="checkbox" name="learnsite" value="Udemy" id="learnsite"> Udemy
+            <input type="checkbox" name="learnsite" value="SoloLearn" id="learnsite"> SoloLearn
+            <input type="checkbox" name="learnsite" value="Udacity" id="learnsite"> Udacity
+            <input type="checkbox" name="learnsite" value="Other" id="learnsite"> Other
+
+         </label>
+
+        <label for="number" id ="number-label"> <p>How many website now before this form ?</p>
+            <input type="number" id="number" min="0" max="5" placeholder="number">
+        </label>
+        
+        <label for="comment"> <p>Any Comment ?</p>
+            <textarea placeholder="      That it's your moment !"></textarea>
+        </label> 
+        <div id="button">
+            <input type="submit" id="submit" value="Submit"/>
+            <input type="reset" id="reset" value="Reset"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

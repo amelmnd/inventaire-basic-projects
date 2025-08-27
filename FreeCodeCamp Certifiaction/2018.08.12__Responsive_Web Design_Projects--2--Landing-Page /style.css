@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+    background-color: rgb(240, 227, 163);
+
+}
+nav{
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    background-color: #317576;
+}
+
+nav ul {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+nav > ul> li{
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+}
+nav > ul> li > a{
+    text-decoration: none;
+    color: #FADD4D;
+    font-weight: 700;
+    font-size: 20px;
+}
+h1{
+    margin-top: 150px;
+  }
+h1, h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 70px;
+}
+#newsletter{
+    border: 2px solid #725656;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #725656;
+    color: #FFF;
+}
+#email{
+    width: 200px;
+    border-radius: 5px;
+}
+#concepts{
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+iframe{
+    width:560px;
+    height:315px;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#onemonth{
+    width: 300px;
+    background-color: #9c8b8b;
+    border-radius: 20px;
+}
+
+
+#sixmonth{
+    width: 300px;
+    background-color: #9c8b8b;
+    border-radius: 20px;
+    
+}
+button{
+    width: 100px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+@media screen and (max-width: 780px){
+    content{
+        flex-direction: column;
+    }
+}

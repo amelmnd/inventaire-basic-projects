@@ -1,0 +1,75 @@
+
+  #navbar{
+    position:fixed;
+    height:100%;
+    border-right:solid;
+ 
+  }
+  header{
+    font-size: 30px;
+    margin:10px;
+  }
+ul{
+    height:88%;
+    overflow:auto;
+  }
+ li{
+    padding:8px;
+    padding-left:45px;
+    list-style: none;
+  }
+  #navbar a{
+    color: #4d4e53;
+    text-decoration:none;
+    cursor:pointer;
+  } 
+  #main-doc{
+    margin-left:310px;
+    padding:30px;
+
+  }
+  section article{
+    color: #4d4e53;
+    margin:15px;
+    font-size:0.96em;
+  }
+
+  code{
+    display:block;
+    background-color:#f7f7f7;
+    margin:10px;
+  }
+
+  @media only screen and (max-width: 815px) {
+      /* For mobile phones: */
+    #navbar{
+      height: auto;
+    }
+
+      #navbar{
+        position:absolute;
+        top:0;
+        padding:0;
+        margin: 0;
+        width:100%;
+        border-bottom:2px solid grey;
+      }
+    #main-doc{
+      margin-left:0px;
+      margin-top:250px;
+    }
+
+  }
+  @media only screen and (max-width: 400px) {
+    #main-doc{
+      margin-left:-10px;
+    }
+    code{
+      margin-left:-20px;
+      width:100%;
+      padding:15px;
+      padding-left:10px;
+      padding-right:45px;
+      min-width:233px;
+    }
+  }

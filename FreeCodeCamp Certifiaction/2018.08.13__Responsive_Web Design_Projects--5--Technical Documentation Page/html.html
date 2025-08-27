@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML</title>
+  <link rel="stylesheet" href="html.css">
+</head>
+<body>
+  
+<nav id="navbar">
+  <header>HTML Documentation</header>
+  <ul> 
+    <a class="nav-link" href="#Introduction" rel="internal"><li>Introduction</li></a>
+    <a class="nav-link" href="#balise" rel="internal"><li>Les balises</li></a>
+    <a class="nav-link" href="#baseStructure" rel="internal"><li>Structure de base</li></a>
+    <a class="nav-link" href="#text" rel="internal"><li>Organisation du text</li></a>
+
+
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>  
+      <p>L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. </p>
+      <p>Le HTML permet également de structurer sémantiquement et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. </p>
+      <p>Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+   </artice>
+    </section>
+  
+  <section class="main-section" id="balise">
+    <header> Les bases</header>
+    <article>
+      <p>Un élément HYML est cositué de balises (tag en anglais) délimité par :<code> <...></code></p>
+      <p>
+        Il existe deux types de balises, les balse orphelines et les balise double qui s'ouvre et se ferme. </p>
+        Structure d'une balise orpheline :
+        <code> &lt;orpheline&gt </code>
+        Structure d'une balise paire de balise double :
+        <code>  &lt;ouvrante&gt &lt;/fermante&gt</code>
+      </p>
+      <p>Dans le page on referme les balise dans le sens inverse de leurs ouverture: 
+        <code> &lt;A&gt &lt;B&gt &lt;C&gt &lt;/C&gt &lt;/B&gt &lt;/A&gt</code> </p>
+
+      <p>Les balises en HTML peut porter de nombreux atribut, il sont optionnle et s'intégre à la structure de base de le façon suivante: 
+        <code>&lt;balise attribut="valeur"&gt</code>
+        Il est à noter que cette structure est la même que cela soit pour une paire de balise ou pour une balise orpheline.
+      </p>
+    </article>
+    </section>
+    <section class="main-section" id="baseStructure">
+        <header> Structure de base</header>
+        <article>
+          <p>La structure de base d'une page HTML est la suivante : 
+            <code>&lt;!DOCTYPE html&gt
+&lt;html&gt
+  &lt;head&gt
+    &lt;meta charset="utf-8" /&gt
+    &lt;title&gt Titre &lt/title&gt
+  &lt;/head&gt
+  &lt;body&gt           
+  &lt;/body&gt
+&lt;/html&gt
+</code>
+        
+          <p>
+            <h3>Le DOCTYPE :</h3>
+            <p>Il indique au navigateur qu'il s'agit d'une page HTML en association avec la balise html</p>
+            <code>&lt;!DOCTYPE html&gt
+&lt;html&gt</code>
+            </p>
+            <h3>Head</h3>
+            <p>En tête générale de la page qui regroupe tous les éléments informatif utile au chargement de la page et de ses éléments.</p>
+            <code>&lt;head&gt
+  &lt;meta charset="utf-8" /&gt
+  &lt;title&gt Titre &lt/title&gt
+&lt;/head&gt</code>
+              <p>Le Head contient différentes balises dont les deux essentielle à la structure de base sont : 
+                <code>&lt;meta charset="utf-8" /&gt</code>
+
+                qui définit l'encodage de la page c'est à dire la foçon dont apparaitrons les caractères spéciaux à l'écran et
+                <code>&lt;title&gt Titre &lt/title&gt</code>
+                qui indique le titre de la page HTML, c'est le titre qui apprait dans l'onglet du navigateur.
+              </p>
+              <h3>Body</h3>
+              <p>C'est la balise qui conteint toute les information qui apparaitrons à l'écran et donc les éléments de la page. 
+                <code>&lt;body&gt           
+&lt;/body&gt</code>
+              </p>
+              <h3>Comentaire</h3>
+              <p>Un autre élément est à connaitre : 
+                <code>  &lt;!-- commentaire --&gt;</code>
+              cette élément permet l'insertion d'element dans le code qui n'apparaitrons pas à l'écran.
+              </p>
+        </article>
+        </section>
+            <section class="main-section" id="text">
+              <header>Organisation du text</header>
+              <article>  
+                <p>Il existe de nombreuses balise et attribut qui permette de structurer le texte en voici quelques unes.</p>
+                <h3>Les titres</h3>
+                <p>voici les balises de titres existantes en HTML suivis de leur forme vue à l'écran</p>
+                <code>&lth1&gtTitre super important&lt/h1&gt
+&lth2&gtTitre important&lt/h2>
+&lth3&gtTitre un peu moins important (sous-titre)&lt/h3&gt
+&lth4&gtTitre pas trop important&lt/h4&gt
+&lth5&gtTitre pas important&lt/h5&gt
+&lth6&gtTitre vraiment pas important du tout&lt/h6&gt
+                </code>
+                <h1>Titre super important</h1>
+                <h2>Titre important</h2>
+                <h3>Titre un peu moins important (sous-titre)</h3>
+                <h4>Titre pas trop important</h4>
+                <h5>Titre pas important</h5>
+                <h6>Titre vraiment pas important du tout</h6>
+
+                <h3>Les paragraphes</h3>
+                <p>Il exite également de nombreuses balise pour structurer les paragraphes,. Voici leur représentation HTML et leur représentation visuel : 
+                  <code>&ltp&gt
+    &ltstrong&gttexte important après un saut de ligne&lt/strong>&lt
+    &ltbr/&gt
+    &ltmark&gtfait ressortir du texte sans obligation d'importance&lt/mark&gt
+&lt/p&gt
+                  </code>
+                    <p>Ceci est un paragraphe</p>
+                    <p>
+                        <strong>texte important</strong><br>
+                        <mark>fait ressortir du texte sans obligation d'importance</mark>
+                    </p>
+                A noter : br permet le retour à la ligne qui ne se fait pas automatiquement.
+                </p>
+                
+                <h3>Les listes</h3>
+                <p>Il existe 2 types de liste en HTML, les listes orginiser (ol) et les liste à puce (ul)</p>
+                <p>Liste Organiser </p>
+             </artice>
+              </section>
+
+
+</main>
+</body>
+</html>
