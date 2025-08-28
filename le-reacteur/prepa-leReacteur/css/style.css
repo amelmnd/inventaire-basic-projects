@@ -1,0 +1,281 @@
+body {
+  background-color: #5c48d2;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  font-size: 48px;
+  color: #FFF;
+  line-height: 200px;
+  text-align: center;
+}
+
+main {
+  max-width: 1024px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main strong {
+  font-weight: bolder;
+}
+
+main h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #190f33;
+  margin-bottom: 80px;
+}
+
+main p {
+  line-height: 30px;
+  margin: 80px 0;
+}
+
+.nav-block-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-block-item a {
+  line-height: 100px;
+  font-size: 20px;
+  color: #190f33;
+  text-decoration: none;
+}
+
+.nav-block-item a:hover {
+  color: #5c48d2;
+}
+
+.principal-image {
+  height: 400px;
+  width: 1024px;
+  background-image: url("../img/computer.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 100px;
+}
+
+.bleu-magenta {
+  background-color: #eeeef7;
+}
+
+
+.about-me-block-profil {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+.about-me-block-profil-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid #fcc01a;
+  background-image: url("../img/dog.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-me-block-profil-name {
+  font-size: 38px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 50px;
+}
+
+.about-me-block-profil-city {
+  font-size: 38px;
+  font-style: italic;
+  color: #190f33;
+}
+
+.about-me-block-profil-description h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 40px;
+}
+
+.education-block {
+  text-align: center;
+}
+
+.education-block--img-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education-block--img-block img {
+  height: 100px;
+}
+
+.projects-block>p {
+  text-align: center;
+}
+
+.projects-block--projects-details_ones {
+  display: flex;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.projects-block--projects-details_ones div:first-child {
+  width: 50%;
+  margin-right: 80px;
+}
+
+.projects-block--projects-details_ones img {
+  width: 100%;
+  margin-right: 60px;
+}
+
+.projects-block--projects-details_ones h4 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.projects-block--projects-details_ones li {
+  line-height: 30px;
+  list-style-type: disc;
+}
+
+.projects-block--projects-details_ones h3 {
+  font-size: 26px;
+  color: #190f33;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contact-block {
+  text-align: center;
+  background-color: #eeeef7;
+}
+
+.contact-block--items_item {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.contact-block--items_item img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.contact-block--items_item p {
+  margin: 0;
+}
+
+.contact-block--items_item p:hover a {
+  color: #5c48d2;
+}
+
+footer {
+  text-align: center;
+  height: 300px;
+  margin-top: 80px;
+  overflow: initial;
+
+}
+
+footer p {
+  color: #c4c4c4;
+  line-height: 40px;
+}
+
+footer a {
+  color: #fcc01a;
+  line-height: 40px;
+}
+
+footer a:hover {
+  color: #190f33;
+}
+
+@media (max-width: 1200px) {
+  .main-block {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 970px) {
+  .about-me-block-profil-name {
+    line-height: 50px;
+  }
+
+  .projects-block--projects-details_ones img {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  main p,
+  main li,
+  .projects-block--projects-details_ones li {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .nav-block-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-block-item a {
+    font-size: 30px;
+  }
+
+  .nav-block-item li {
+    text-align: center;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  .about-me-block-profil {
+    flex-direction: column;
+  }
+  
+  .projects-block--projects-details_ones ul {
+    margin-left: 30px;
+  }
+
+  .projects-block--projects-details_ones {
+    flex-direction: column;
+  }
+
+  .projects-block--projects-details_ones div:first-child {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .projects-block--projects-details_ones h3 {
+    font-size: 36px;
+  }
+
+  .projects-block--projects-details_ones h4 {
+    font-size: 28px;
+  }
+
+  .projects-block--projects-details_ones img {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mon portfolio prépa le Reacteur</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+  </header>
+  <main class="main-block">
+    <nav>
+      <ul class="nav-block-item">
+        <li><a href="#about-me">A propos de moi</a></li>
+        <li><a href="#education">Formation</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="principal-image">
+      <!--<img src="./img/computer.jpeg" alt="ordinateur image principale">-->
+
+    </div>
+    <section id="about-me">
+      <div class="about-me-block-profil">
+        <div class="about-me-block-profil-image">
+          <!--<img src="./img/dog.jpeg" alt="image de profil" class="about-me-block-profil-image">-->
+        </div>
+        <div>
+          <p class="about-me-block-profil-name">John Doe</p>
+          <p class="about-me-block-profil-city">Paris</p>
+        </div>
+      </div>
+      <div class="about-me-block-profil-description">
+        <h3>A propos de moi</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium venenatis metus, et scelerisque mauris
+          vehicula sed. Phasellus ultrices arcu purus, non lacinia velit pharetra sit amet. Nulla id magna non nulla
+          euismod tempus at eu lectus. Donec venenatis nunc risus, quis pharetra nisi efficitur eu. Pellentesque
+          accumsan euismod efficitur. Cras scelerisque sollicitudin porttitor. In hac habitasse platea dictumst. Fusce
+          ullamcorper nibh non iaculis commodo. Nam dolor neque, feugiat imperdiet massa sit amet, tincidunt malesuada
+          arcu. Fusce fringilla nulla vel nunc porta elementum. Fusce rutrum hendrerit blandit. Donec vitae quam iaculis
+          tellus fermentum pharetra eget ut purus. Vestibulum eget fermentum libero. Etiam maximus dolor eu dolor
+          interdum porttitor.</p>
+      </div>
+    </section>
+    <section id="education" class="education-block bleu-magenta">
+      <h2>Formation</h2>
+      <p>Les technologies sur lesquelles je me forme actuellement :</p>
+      <div class="education-block--img-block">
+        <div>
+          <img src="./img/html.png" alt="logo html">
+        </div>
+        <div>
+          <img src="./img/css.png" alt="logo css">
+        </div>
+        <div>
+          <img src="./img/javascript.png" alt="logo javascript">
+        </div>
+      </div>
+      <p>Pochainement, je suivrai la formation <strong>Développement Web & Mobile</strong> au <strong>Reacteur</strong>
+        afin de perfectionner mes connaissances et d'apprendre de nouvelles technologies :</p>
+      <div class="education-block--img-block">
+        <div>
+          <img src="./img/mongodb.png" alt="logo mondodb">
+        </div>
+        <div>
+          <img src="./img/react.png" alt="logo react">
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-block">
+      <h2>Projets</h2>
+      <p>Au cours de ma formation Développement Web & Mobile, je réaliserai plusieurs répliques d'applications Web et
+        d'applications Mobiles :</p>
+      <div class="projects-block--projects-details">
+        <div class="projects-block--projects-details_ones">
+          <div>
+            <img src="./img/tripadvisor.png" alt="image tripadvisor">
+          </div>
+          <div>
+            <h3>Tripadvisor web</h3>
+            <h4>Projet Front-end</h4>
+            <ul>
+              <li>Envois automatique de mail</li>
+              <li>Carousel de photo</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projects-block--projects-details_ones">
+          <div><img src="./img/deliveroo.png" alt="image deliveroo"></div>
+          <div>
+            <h3>Deliveroo Web</h3>
+            <h4>Projet Front-end</h4>
+            <ul>
+              <li>Récupération de donnée</li>
+              <li>Panier de Commande</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projects-block--projects-details_ones">
+          <div>
+            <img src="./img/vinted.png" alt="image vinted">
+          </div>
+          <div>
+            <h3>Vinted Web</h3>
+            <h4>Projet Fullstack</h4>
+            <ul>
+              <li>Inscription / connexion</li>
+              <li>Récupération de données</li>
+              <li>Publication d'annonce</li>
+              <li>barre de Recherche</li>
+              <li>Paiement</li>
+              <li>Upload de photos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projects-block--projects-details_ones">
+          <div>
+            <img src="./img/airbnb.png" alt="image airbnb">
+          </div>
+          <div>
+            <h3>Airbnb Mobile</h3>
+            <h4>Projet Fullstack</h4>
+            <ul>
+              <li>Inscription / connexion</li>
+              <li>Modification du profil utilisateur</li>
+              <li>Affichage de cartes</li>
+              <li>Géolocalisation</li>
+              <li>Accés à la galerie d'images</li>
+              <li>Accés à l'appareil photp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-block bleu-magenta">
+      <h2>Contactez-moi</h2>
+      <div class="contact-block--items">
+        <div class="contact-block--items_item">
+          <img src="./img/mail.jpg" alt="logo mail">
+          <p><a href="#">e-mail</a></p>
+        </div>
+        <div class="contact-block--items_item">
+          <img src="./img/linkedin.png" alt="logo linkedin">
+          <p><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+        </div>
+        <div class="contact-block--items_item">
+          <img src="./img/github.png" alt="logo github">
+          <p><a href="https://github.com/" target="_blank">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Projet réalisé par John Doe</p>
+    <p>Préparation à la formation Développement Web & Mobile</p>
+    <a href="https://www.lereacteur.io" target="_blank">Le Reacteur</a>
+  </footer>
+</body>
+
+</html>
