@@ -5,88 +5,137 @@
   <title>Inventaire des projets</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: 'Arial', sans-serif;
       margin: 20px;
-    }
-    h2 {
-      margin-top: 30px;
+      background-color: #f9f9f9;
       color: #2c3e50;
     }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+      color: #2980b9;
+    }
+
     ul {
       list-style: none;
       padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
     }
+
     li {
-      margin: 6px 0;
+      background: #fff;
+      border-radius: 8px;
+      padding: 10px 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
+
+    li:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
     a {
       text-decoration: none;
       color: #2980b9;
+      font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    @media(max-width: 600px) {
+      ul {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
   <h1>Inventaire des projets</h1>
 
-  <h2>3wacademy-formation</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Bootstrap/">Bootstrap</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Carrousel/">Carrousel</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Creasoul/">Creasoul</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/CupofTea/">CupofTea</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/DragonSlayer/">DragonSlayer</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/FishChips/">FishChips</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/GreenOffice/">GreenOffice</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/HelloWorld/">HelloWorld</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/IlaYoga1/">IlaYoga1</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/IlaYoga2/">IlaYoga2</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Initiation-flexbox/">Initiation-flexbox</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Mindgee_cloudSass/">Mindgee_cloudSass</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Mindgee_homeCss/">Mindgee_homeCss</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Portfolio-exo/">Portfolio-exo</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/RealtyGroup/">RealtyGroup</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Rocket/">Rocket</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/SelecteurPhotos/">SelecteurPhotos</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Typography/">Typography</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/WolfGang/">WolfGang</a></li>
-  </ul>
+  <div class="section">
+    <h2>3wacademy-formation</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Bootstrap/">Bootstrap</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Carrousel/">Carrousel</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Creasoul/">Creasoul</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/CupofTea/">CupofTea</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/DragonSlayer/">DragonSlayer</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/FishChips/">FishChips</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/GreenOffice/">GreenOffice</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/HelloWorld/">HelloWorld</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/IlaYoga1/">IlaYoga1</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/IlaYoga2/">IlaYoga2</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Initiation-flexbox/">Initiation-flexbox</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Mindgee_cloudSass/">Mindgee_cloudSass</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Mindgee_homeCss/">Mindgee_homeCss</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Portfolio-exo/">Portfolio-exo</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/RealtyGroup/">RealtyGroup</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Rocket/">Rocket</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/SelecteurPhotos/">SelecteurPhotos</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/Typography/">Typography</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/3w-academy-formation/WolfGang/">WolfGang</a></li>
+    </ul>
+  </div>
 
-  <h2>freecodecamp-certifiaction / Responsive_Web Design</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/Responsive-Web-Design-Projects1-Build-a-Tribute_Page/">Projects1 - Tribute Page</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/Responsive-Web-Design-Projects2-Landing-Page/">Projects2 - Landing Page</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/Responsive-Web-Design-Projects3-Survery-Form/">Projects3 - Survey Form</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/Responsive-Web-Design-Projects4-Technical-Documentation-Page/">Projects4 - Technical Documentation</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/Responsive-Web-Design-Projects5-Personal-Portfolio-Web-Page/">Projects5 - Personal Portfolio</a></li>
-  </ul>
+  <div class="section">
+    <h2>freecodecamp-certification / Responsive Web Design</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/responsive-web-design-projects1-build-a-tribute-page/">Projects1 - Tribute Page</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/responsive-web-design-projects2-landing-page/">Projects2 - Landing Page</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/responsive-web-design-projects3-survery-form/">Projects3 - Survey Form</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/responsive-web-design-projects4-technical-documentation-page/">Projects4 - Technical Documentation</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/freecodecamp-certification/responsive-web-design-projects5-personal-portfolio-web-page/">Projects5 - Personal Portfolio</a></li>
+    </ul>
+  </div>
 
-  <h2>le-reacteur</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/le-reacteur/marmiton/">marmiton</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/le-reacteur/prepa-leReacteur/">prepa-leReacteur</a></li>
-  </ul>
+  <div class="section">
+    <h2>le-reacteur</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/le-reacteur/marmiton/">marmiton</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/le-reacteur/prepa-leReacteur/">prepa-leReacteur</a></li>
+    </ul>
+  </div>
 
-  <h2>opendeclic</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/opendeclic/travel-agency/">Travel-Agency</a></li>
-  </ul>
+  <div class="section">
+    <h2>opendeclic</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/opendeclic/travel-agency/">Travel-Agency</a></li>
+    </ul>
+  </div>
 
-  <h2>other-project</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/chut-de-gif/">chut-de-gif</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/game-pokemon-song/">game-pokemon-song</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/workshop-le-wagon-landing-page/">workshop-le-wagon-landing-page</a></li>
-  </ul>
+  <div class="section">
+    <h2>other-project</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/chut-de-gif/">chut-de-gif</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/game-pokemon-song/">game-pokemon-song</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/other-project/workshop-le-wagon-landing-page/">workshop-le-wagon-landing-page</a></li>
+    </ul>
+  </div>
 
-  <h2>udemy-formation-complete-developpeur-web---johntaieb</h2>
-  <ul>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/SnakeGame/">SnakeGame</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/SnakeGame-Custom-Serpent_de_mer/">SnakeGame-Custom-Serpent_de_mer</a></li>
-    <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/TravelAgency-noresponsive/">TravelAgency-noresponsive</a></li>
-  </ul>
+  <div class="section">
+    <h2>udemy-formation-complete-developpeur-web-johntaieb</h2>
+    <ul>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/SnakeGame/">SnakeGame</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/SnakeGame-Custom-Serpent_de_mer/">SnakeGame-Custom-Serpent_de_mer</a></li>
+      <li><a href="https://amelmnd.github.io/inventaire-basic-projects/udemy-formation-complete-developpeur-web-johntaieb/TravelAgency-noresponsive/">TravelAgency-noresponsive</a></li>
+    </ul>
+  </div>
+
 </body>
 </html>
