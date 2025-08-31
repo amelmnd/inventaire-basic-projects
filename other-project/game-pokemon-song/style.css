@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://images3.alphacoders.com/648/648624.jpg) bottom center;
+  background: url('./pokemon-game.png') bottom center;
   background-size: cover;
 }
 body,html {
